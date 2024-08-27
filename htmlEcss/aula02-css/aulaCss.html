@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 02 - CSS</title>
+    <style>
+        p{
+            /* muda a cor da fonte */
+            color: plum;
+            /* muda tamanho da fonte */
+            font-size: 17pt;
+            /* muda a familia da fonte */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* muda a cor de fundo de um elemento */
+            background-color: rgb(109, 109, 109);
+        }
+
+        body{
+            background-color: rgb(202, 202, 202);
+        }
+
+        .sublinhado{
+            text-decoration: underline;
+            background-color: aliceblue;
+        }
+
+        #tituloPrincipal{
+            font-size: 40pt;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+        }
+
+        img{
+            /* largura */
+            width: 400px;
+            /* altura */
+            height: auto;
+            /* border = espessura, tipo e cor */
+            border: 4px solid plum;
+            /* border radius = arredonda */
+            border-radius: 10%;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="tituloPrincipal">UM ARTIGO SUPER INTERESSANTE!</h1>
+    <p>Lorem ipsum dolor <span class="sublinhado">sit amet</span> consectetur adipisicing elit. Adipisci, aliquid beatae! Totam optio excepturi provident odit quos, alias, similique quibusdam odio repellat sunt autem enim ducimus voluptatum ipsam minus esse.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod, ex, dolore fugiat nostrum quos quidem, laborum ipsam natus tenetur tempore id? Nulla ipsum dolorum mollitia deserunt a voluptatum eveniet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quas omnis tempore consectetur deserunt, ducimus expedita sit eaque fugit repudiandae quasi dicta aliquam ipsam illo similique corrupti aliquid mollitia sint?</p>
+    <p style="color: rgb(60, 180, 196);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quam nemo <span class="sublinhado">nulla voluptatibus nam delectus</span> vitae atque, similique alias nobis mollitia nostrum laborum incidunt, ea unde dolor vero asperiores tempora?</p>
+
+
+    <img src="girassol1.jpg" alt="Girassol">
+    <img src="girassol2.jpg" alt="Girassol">
+</body>
+</html>
