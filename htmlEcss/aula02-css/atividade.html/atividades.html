@@ -3,31 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade - CSS </title>
+    <title>Atividade - CSS</title>
     <style>
 
-        body{
+
+        body {
             background-color: rgb(230, 247, 247);
         }
 
-        #tituloPrincipal{
+
+        #tituloPrincipal {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
             font-size: 50px;
+            color: plum;
             text-align: center;
         }
 
-        h2{
+
+        .Aquecimento, .TiposDeDancas, .CuidadosPessoais {
             font-size: 40px;
-            font-family:Georgia, 'Times New Roman', Times, serif;
-        }
-        
-        p{
-            font-size: 14px;
-            color: rgb(121, 109, 109);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
         }
 
-        img{
+
+        .Explicacao, p {
+            font-size: 14px;
+            color: rgb(99, 94, 94);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+
+        img {
             width: 400px;
-            height: auto;
+            height: 300px;
             border: 4px solid powderblue;
             border-radius: 10%;
         }
@@ -37,22 +45,29 @@
 </head>
 <body>
     <h1 id="tituloPrincipal">Movimento Mágico</h1>
-    <h2>Aquecimento:</p>
-        <p>Levantando os seus ombros para cima e para baixo, você ativa a musculatura dos braços e tronco, se preparando para se exercitar. Mesmo quando não se tem muito espaço, o aquecimento antes da dança não pode ficar de fora do seu ritual. Assim, a movimentação no lugar é uma excelente alternativa para preparar o seu corpo.</p>
-    <h2>Tipos de dança:</p>
-        <p>
-            1- Samba.
-            2- Funk.
-            3- Zumba.
-            4- Balé clássico.
-            5- Dança do ventre.
-            6- Dança africana.
-            7- Dança de salão
-        </p>
-    <h2>Cuidados pessoas ao realizar essa atividade: </p>
-        <p>A dica é dançar cerca de 30 minutos por pelo menos três vezes por semana, isso ajudará a aumentar a frequência cardíaca e respiratória, e o crescimento da carga de disposição e energia.</p>
+
+
+    <h2 class="Aquecimento">Aquecimento:</h2>
+    <p class="Explicacao">Levantando os seus ombros para cima e para baixo, você ativa a musculatura dos braços e tronco, se preparando para se exercitar. Mesmo quando não se tem muito espaço, o aquecimento antes da dança não pode ficar de fora do seu ritual. Assim, a movimentação no lugar é uma excelente alternativa para preparar o seu corpo.</p>
+
+
+    <h2 class="TiposDeDancas">Tipos de Danças:</h2>
+    <p>
+        1- Samba.<br>
+        2- Funk.<br>
+        3- Zumba.<br>
+        4- Balé clássico.<br>
+        5- Dança do ventre.<br>
+        6- Dança africana.<br>
+        7- Dança de salão.
+    </p>
+
+
+    <h2 class="CuidadosPessoais">Cuidados pessoais ao realizar essa atividade:</h2>
+    <p class="Explicacao">A dica é dançar cerca de 30 minutos por pelo menos três vezes por semana, isso ajudará a aumentar a frequência cardíaca e respiratória, e o crescimento da carga de disposição e energia.</p>
+
 
     <img src="Ballet.png" alt="Alunas de ballet">
-
-    </body>
+    <img src="Samba.jpg" alt="Aula de samba">
+</body>
 </html>
