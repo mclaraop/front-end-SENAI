@@ -1,0 +1,94 @@
+/*B5C0D0 azul
+CCD3CA verde
+F5E8DD creme
+EED3D9 rosa */
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #B5C0D0;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer{
+    align-items: center;
+    flex-direction: column;
+}
+
+header a{
+    text-decoration: none;
+    color: #F5E8DD;
+}
+
+main{
+    width: 90%;
+    box-shadow: 5px 5px 5px #EED3D9;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h2, h4{
+    text-align: center;
+    color: #CCD3CA;
+}
+
+#novidades ul{
+    background-color: #EED3D9;
+    width: 60%;
+    height: 100px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+#populares ol{
+    width: 90%;
+    background-color: #F5E8DD;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    border-radius: 10px;
+}
+
+.livro{
+    width: 300px;
+    padding: 20px;
+    background-color: #CCD3CA;
+    margin: 10px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+footer li{
+    background-color: #CCD3CA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #F5E8DD;
+}
