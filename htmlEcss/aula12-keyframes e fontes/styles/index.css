@@ -1,0 +1,61 @@
+@keyframes teste {
+    0%{
+        background-color: var(--cor2);
+    }
+    50%{
+        background-color: var(--cor3);
+    }
+    100%{
+        background-color: var(--cor4);
+        padding: 10px;
+    }
+}
+
+#animado{
+    width: 100px;
+    height: 100px;
+    background-color: var(--cor1);
+}
+
+#animado:hover{
+    animation-name: teste;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@font-face {
+    font-family: William Christmas;
+    src: url(../fonts/William\ Christmas.otf);
+}
+
+@font-face {
+    font-family: Static;
+    src: url(../fonts/static/SUSE-Regular.ttf);
+}
+
+@font-face {
+    font-family: Static;
+    src: url(../fonts/static/SUSE-Bold.ttf);
+    font-weight: bold;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+h2, h3{
+    font-family: William Christmas;
+}
+
+p{
+    font-family: Static;
+}
+
+:root{
+    --cor1: rgb(209, 209, 209);
+    --cor2: rgb(216, 159, 218);
+    --cor3: rgb(179, 174, 174);
+    --cor4: rgb(241, 130, 163);
+    --branco: rgb(255, 255, 255);
+}
