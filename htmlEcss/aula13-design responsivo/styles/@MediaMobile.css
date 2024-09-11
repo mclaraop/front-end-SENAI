@@ -1,0 +1,14 @@
+/*  landscape - paisagem */
+/* portrait - retrato */
+
+@media screen and (orientation : landscape) {
+    body{
+        background-color: rgb(180, 138, 138);
+    }
+}
+
+@media screen and (orientation : portrait) {
+    body{
+        background-color: rgb(173, 166, 166);
+    }
+}

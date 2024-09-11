@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 13 - Design responsivo</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="styles/@MediaMobile.css">
+</head>
+<body>
+    <header>
+        <div id="logo">
+            Um logo muito massa!
+        </div>
+
+        <button id="btnMenu" onclick="menu()"> X </button>
+
+        <nav id="menuPc">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#"></a>Página 1</li>
+                <li><a href="#"></a>Página 2</li>
+            </ul>
+        </nav>
+        <nav id="menuMobile">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#"></a>Página 1</li>
+                <li><a href="#"></a>Página 2</li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <!-- <img src="/images/mulherdancando.jpg" alt="Um banner"> -->
+
+        <picture>
+            <source media="screen and (max-width: 700px)" srcset="/images/mulherdancandoMenor.jpg">
+            <img src="images/mulherdancando.jpg" alt="Um banner">
+        </picture>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis quaerat assumenda ea molestias aspernatur labore culpa nesciunt tenetur laudantium similique animi non illum, cum dicta ad error facere reiciendis expedita.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum architecto harum sed fugiat itaque esse aperiam, eos, at pariatur consequuntur facere repellendus, excepturi neque? Officiis doloremque odio perferendis eius quisquam.</p>
+    </main>
+
+
+    <footer>
+        Todos os direitos reservados! 
+    </footer>
+
+    <script>
+        function menu(){
+            if(menuMobile.style.display == "none"){
+                menuMobile.style.display = "flex"
+            }else{
+                menuMobile.style.display = "none"
+            }
+        }
+    </script>
+    
+</body>
+</html>
