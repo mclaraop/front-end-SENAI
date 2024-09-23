@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <div class="calculadora">
+        <div class="numeros">
+            <button onclick="botaoN('1')" type="button">1</button>
+            <button onclick="botaoN('2')" type="button">2</button>
+            <button onclick="botaoN('3')" type="button">3</button>
+        </div>
+        <div class="numeros">
+            <button onclick="botaoN('4')" type="button">4</button>
+            <button onclick="botaoN('5')" type="button">5</button>
+            <button onclick="botaoN('6')" type="button">6</button>
+        </div>
+        <div class="numeros">
+            <button onclick="botaoN('7')" type="button">7</button>
+            <button onclick="botaoN('8')" type="button">8</button>
+            <button onclick="botaoN('9')" type="button">9</button>
+            <button onclick="botaoN('0')" type="button">0</button>
+        </div>
+        <div class="operadores">
+            <button onclick="botaoOperador('+')" type="button">+</button>
+            <button onclick="botaoOperador('-')" type="button">-</button>
+            <button onclick="botaoOperador('*')" type="button">*</button>
+            <button onclick="botaoOperador('/')" type="button">/</button>
+            <button onclick="botaoOperador()" type="button">Resetar</button>
+            <button onclick="calcular('=')" type="button">=</button>
+        </div>
+    </div>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

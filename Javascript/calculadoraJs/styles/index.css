@@ -1,0 +1,16 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --cor1: #F6E6E4; 
+    --cor2: #E2BCB7;
+    --cor3: #CA8A8B;
+    --cor4: #5B6D5B;
+    --fonte: Roboto;
+}
+
+body{
+    font-family: var(--fonte);
+}
