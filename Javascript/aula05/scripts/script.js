@@ -28,4 +28,22 @@ function repeticao(){
 }
 
 
-function lista(){}
+function lista(){
+    //var arrayComen = Array()
+    //arrayComen[0] = "info"
+    
+    var livros = [true, "string", 100, []]
+
+    var listaProdutos = ['Documentos Cientificos', 'Mangá', 'Livros', 'Revistas', 'Apostilas']
+
+    console.log(listaProdutos)
+
+    listaProdutos.forEach(produto => {
+        document.getElementById("resposta3").innerHTML += `
+            <div class="elementos">
+                ${produto}
+            </div>
+
+        `
+    });
+}
