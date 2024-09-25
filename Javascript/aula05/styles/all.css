@@ -1,0 +1,11 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.elementos{
+    padding: 20px;
+    background-color: powderblue;
+    color: rgb(87, 86, 86);
+    margin: 20px;
+}
